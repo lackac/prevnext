@@ -1,0 +1,5 @@
+content	prevnext	jar:chrome/prevnext.jar!/content/
+locale	prevnext	en-US	jar:chrome/prevnext.jar!/locale/en-US/
+locale	prevnext	hu-HU	jar:chrome/prevnext.jar!/locale/hu-HU/
+skin	prevnext	classic/1.0	jar:chrome/prevnext.jar!/skin/
+overlay	chrome://browser/content/browser.xul	chrome://prevnext/content/firefoxOverlay.xul

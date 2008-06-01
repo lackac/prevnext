@@ -1,0 +1,5 @@
+content	prevnext	content/
+locale	prevnext	en-US	locale/en-US/
+locale	prevnext	hu-HU	locale/hu-HU/
+skin	prevnext	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://prevnext/content/firefoxOverlay.xul
