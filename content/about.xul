@@ -22,15 +22,22 @@
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="Prev/Next" style="font-weight: bold; font-size: x-large;"/>
-  <text value="&version; 1.0.1"/>
+  <text value="&version; "/>
+  <script type="application/javascript">
+  //<![CDATA[
+    var ext = Application.extensions.get('prevnext@lackac.hu');
+    var version = document.getElementById('version');
+    version.setAttribute('value', version.getAttribute('value') + ext.version);
+  //]]>
+  </script>
   <separator class="thin"/>
   <text value="&createdBy;" style="font-weight: bold;"/>
   <text value="László Bácsi"/>
   <separator class="thin"/>
       <text value="&homepage;" style="font-weight: bold;"/>
-    <text value="http://lackac.name/"
+    <text value="http://icanscale.com/prevnext/"
           class="url"
-        onclick="window.open('http://lackac.name/'); window.close();"/>
+        onclick="window.open('http://icanscale.com/prevnext/'); window.close();"/>
   <separator class="thin"/>
 </vbox>
 </groupbox>

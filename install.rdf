@@ -7,7 +7,7 @@
     <em:version>1.0.1</em:version>
     <em:creator>László Bácsi</em:creator>
     <em:description>Adds two menu items for switching tabs the Mac way</em:description>
-    <em:homepageURL>http://lackac.name/</em:homepageURL>
+    <em:homepageURL>http://icanscale.com/prevnext/</em:homepageURL>
 <!--    <em:updateURL>http://lackac.hu/lab/prevnext/update</em:updateURL>-->
     <em:aboutURL>chrome://prevnext/content/about.xul</em:aboutURL>
     <em:iconURL>chrome://prevnext/content/prevnext.png</em:iconURL>
